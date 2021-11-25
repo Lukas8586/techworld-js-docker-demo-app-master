@@ -25,7 +25,6 @@ pipeline {
             when {
                 expression {
                     params.executeTests
-					1
                 }
             }
             steps {
