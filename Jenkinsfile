@@ -9,6 +9,7 @@ pipeline {
     stages {
         stage("init") {
             steps {
+			echo "init tu sobie jest"
                 script {
                    gv = load "script.groovy" 
                 }
